@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhangym="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zhangym.verificationcodeview.MainActivity">
+
+    <com.zhangym.customview.VerificationCodeView
+        android:id="@+id/verificationCodeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        zhangym:interferenceCirclesCount="40"
+        zhangym:interferenceCirclesRadius="5"
+        zhangym:interferenceLinesCount="10"
+        zhangym:isShowInterferenceCircles="true"
+        zhangym:isShowInterferenceLines="true"
+        zhangym:isTextBold="true"
+        zhangym:textSize="50sp"
+        zhangym:textSkewX="0"
+        zhangym:verificationText="9D27" />
+</RelativeLayout>

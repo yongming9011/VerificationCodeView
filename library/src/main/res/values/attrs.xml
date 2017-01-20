@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerificationCodeView">
+        <!-- 验证码文本 -->
+        <attr name="verificationText" format="string" />
+        <!-- 设置验证码文本的颜色 -->
+        <attr name="textColor" format="color" />
+        <!-- 设置验证码文本尺寸 -->
+        <attr name="textSize" format="dimension" />
+        <!-- 设置验证码是否有下划线 -->
+        <attr name="isUnderLine" format="boolean" />
+        <!-- 验证码字体是否为粗体-->
+        <attr name="isTextBold" format="boolean" />
+        <!-- 设置文本的倾斜度，默认为0 ,正数左斜，负数右斜-->
+        <attr name="textSkewX" format="float" />
+        <!-- 设置验证码字体风格，暂时先不要使用，后续完善 -->
+        <attr name="typeFace" format="integer" />
+        <!-- 设置验证码文字宽度-->
+        <attr name="strokeWidth" format="float" />
+        <!-- 是否显示干扰线条,默认为true -->
+        <attr name="isShowInterferenceLines" format="boolean" />
+        <!-- 设置干扰线条的数量，默认10条 -->
+        <attr name="interferenceLinesCount" format="integer" />
+        <!-- 设置干扰线条的颜色，如果不设置，默认为随机生成的颜色-->
+        <attr name="interferenceLinesColor" format="color" />
+        <!--设置干扰线条的宽度，默认为3-->
+        <attr name="interferenceLinesWidth" format="float" />
+        <!-- 设置是否显示干扰圆点，默认为true -->
+        <attr name="isShowInterferenceCircles" format="boolean" />
+        <!-- 设置干扰圆点的数量，默认100个-->
+        <attr name="interferenceCirclesCount" format="integer" />
+        <!-- 设置干扰圆点的颜色，如果不设置，默认为随机生成的颜色-->
+        <attr name="interferenceCirclesColor" format="color" />
+        <!--设置干扰圆点的半径，默认为5-->
+        <attr name="interferenceCirclesRadius" format="float" />
+        <!-- 设置验证码背景色，默认为灰色-->
+        <attr name="verificationCodeBackground" format="color" />
+    </declare-styleable>
+</resources>
