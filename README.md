@@ -1,4 +1,5 @@
 # VerificationCodeView
+
 # 一、添加依赖
 
 1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用；
@@ -118,3 +119,10 @@
 # 四、效果图
 
 图床有点问题，稍后上传哈~~~
+
+
+
+# 五、联系方式
+
+- [我的博客](http://blog.csdn.net/zhangym90)
+- **Gmail**:yongming9011@gmail.com
