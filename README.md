@@ -12,14 +12,15 @@
    }
    ```
 
-
-1. 然后咋app目录下 build.gradle 下添加依赖
+   然后在app目录下 build.gradle 下添加依赖
 
    ```groovy
    dependencies {
    	   compile 'com.github.yongming9011:VerificationCodeView:v1.0'
    }
    ```
+
+   ​
 
 2. **Eclipse**：下载项目，将library里面的VerificationCodeView.java跟res/values/attrs.xml文件拷贝进项目。
 
@@ -116,4 +117,4 @@
 
 # 四、效果图
 
-稍后上传哈~~~~
+图床有点问题，稍后上传哈~~~
