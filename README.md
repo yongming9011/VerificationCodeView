@@ -1,7 +1,7 @@
 # VerificationCodeView
 # 一、添加依赖
 
-1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用；**Eclipse**：下载项目，将library里面的VerificationCodeView.java跟res/values/attrs.xml文件拷贝进项目。
+1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用；
 
    ```groovy
    allprojects {
@@ -20,6 +20,8 @@
    	   compile 'com.github.yongming9011:VerificationCodeView:v1.0'
    }
    ```
+
+2. **Eclipse**：下载项目，将library里面的VerificationCodeView.java跟res/values/attrs.xml文件拷贝进项目。
 
 # 二、用法
 
@@ -113,9 +115,5 @@
 
 
 # 四、效果图
-稍后上传~~~~
 
-
-
-
-
+稍后上传哈~~~~
