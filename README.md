@@ -118,8 +118,7 @@
 
 # 四、效果图
 
-图床有点问题，稍后上传哈~~~
-
+![效果图](https://ww1.sinaimg.cn/large/006y8lValy1fbxzq88636g309t0injss.gif)
 
 
 # 五、联系方式
