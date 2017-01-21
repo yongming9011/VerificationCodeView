@@ -51,7 +51,7 @@
 - 对应属性说明如下：
 
   ```xml
-   <!-- 验证码文本 -->
+          <!-- 验证码文本 -->
           <attr name="verificationText" format="string" />
           <!-- 设置验证码文本的颜色 -->
           <attr name="textColor" format="color" />
