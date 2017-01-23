@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VerificationCodeView</string>
+    <string name="btn_login">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="tv_username">用户名：</string>
+    <string name="tv_password">密&#160;&#160;&#160;&#160;码：</string>
+    <string name="tv_verification">验证码：</string>
 </resources>
