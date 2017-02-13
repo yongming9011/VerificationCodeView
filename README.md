@@ -2,7 +2,7 @@
 
 # 一、添加依赖
 
-1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用；
+1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用：
 
    ```groovy
    allprojects {
@@ -123,5 +123,5 @@
 
 # 五、联系方式
 
-- [我的博客](http://blog.csdn.net/zhangym90)
+- [我的博客](http://zhangym.me/)
 - **Gmail**:yongming9011@gmail.com
