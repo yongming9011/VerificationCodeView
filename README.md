@@ -2,7 +2,7 @@
 
 # 一、添加依赖
 
-1. **Android Studio:**在项目的根目录下build.gradle里的allprojects下添加如下引用：
+1. **Android Studio**：在项目的根目录下build.gradle里的allprojects下添加如下引用：
 
 ```groovy
    allprojects {
@@ -23,7 +23,7 @@
 
    ​
 
-2. **Eclipse:**下载项目，将library里面的VerificationCodeView.java跟res/values/attrs.xml文件拷贝进项目。
+2. **Eclipse**：下载项目，将library里面的VerificationCodeView.java跟res/values/attrs.xml文件拷贝进项目。
 
 # 二、用法
 
