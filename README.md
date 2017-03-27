@@ -2,24 +2,24 @@
 
 # 一、添加依赖
 
-1. **Android Studio：**在项目的根目录下build.gradle里的allprojects下添加如下引用：
+1. **Android Studio**：在项目的根目录下build.gradle里的allprojects下添加如下引用：
 
-   ```groovy
+```groovy
    allprojects {
    	repositories {
    		...
    		maven { url 'https://jitpack.io' }
    	}
    }
-   ```
+```
 
    然后在app目录下 build.gradle 下添加依赖
 
-   ```groovy
+```groovy
    dependencies {
    	   compile 'com.github.yongming9011:VerificationCodeView:v1.0'
    }
-   ```
+```
 
    ​
 
