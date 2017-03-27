@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
         login();
 
-
         mCodeView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
