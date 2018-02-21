@@ -462,10 +462,11 @@ public class VerificationCodeView extends View {
 
     public VerificationCodeView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        TypedArray array = context.getTheme().obtainStyledAttributes(attrs, R.styleable.VerificationCodeView, 0, 0);
 
+        TypedArray array = context.getTheme().obtainStyledAttributes(attrs, R.styleable.VerificationCodeView, 0, 0);
         for (int i = 0; i < array.getIndexCount(); i++) {
             int attr = array.getIndex(i);
+
             if (attr == R.styleable.VerificationCodeView_verificationText) {
                 mVerificationText = array.getString(attr);
 
