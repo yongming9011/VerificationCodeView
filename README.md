@@ -123,5 +123,5 @@
 
 # 五、联系方式
 
-- [我的博客](http://zhangym.me/)
+- [我的博客](http://zhangym.xyz/)
 - **Gmail**:yongming9011@gmail.com
