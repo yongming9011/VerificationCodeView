@@ -468,27 +468,35 @@ public class VerificationCodeView extends View {
             int attr = array.getIndex(i);
 
             if (attr == R.styleable.VerificationCodeView_verificationText) {
+                // 验证码文本
                 mVerificationText = array.getString(attr);
 
-            } else if (attr == R.styleable.VerificationCodeView_isUnderLine) {// 验证码文字是否具有下划线
+            } else if (attr == R.styleable.VerificationCodeView_isUnderLine) {
+                // 验证码文字是否具有下划线
                 isUnderLine = array.getBoolean(attr, false);
 
-            } else if (attr == R.styleable.VerificationCodeView_isTextBold) {// 文本是否加黑
+            } else if (attr == R.styleable.VerificationCodeView_isTextBold) {
+                // 文本是否加黑
                 isTextBold = array.getBoolean(attr, false);
 
-            } else if (attr == R.styleable.VerificationCodeView_strokeWidth) {// 验证码字体的宽度
+            } else if (attr == R.styleable.VerificationCodeView_strokeWidth) {
+                // 验证码字体的宽度
                 mStrokeWidth = array.getFloat(attr, 0);
 
-            } else if (attr == R.styleable.VerificationCodeView_textColor) {// 验证码文本的颜色,默认为黑色
+            } else if (attr == R.styleable.VerificationCodeView_textColor) {
+                // 验证码文本的颜色,默认为黑色
                 mTextColor = array.getColor(attr, Color.BLACK);
 
-            } else if (attr == R.styleable.VerificationCodeView_textSize) {// 验证码文本的大小
+            } else if (attr == R.styleable.VerificationCodeView_textSize) {
+                // 验证码文本的大小
                 mTextSize = array.getDimensionPixelSize(attr, 16);
 
-            } else if (attr == R.styleable.VerificationCodeView_textSkewX) {// 验证码文本的倾斜度
+            } else if (attr == R.styleable.VerificationCodeView_textSkewX) {
+                // 验证码文本的倾斜度
                 mTextSkewX = array.getFloat(attr, 0);
 
-            } else if (attr == R.styleable.VerificationCodeView_isShowInterferenceCircles) {// 是否显示干扰圆点
+            } else if (attr == R.styleable.VerificationCodeView_isShowInterferenceCircles) {
+                // 是否显示干扰圆点
                 isShowInterferenceCircles = array.getBoolean(attr, true);
 
             } else if (attr == R.styleable.VerificationCodeView_interferenceCirclesColor) {
@@ -496,13 +504,16 @@ public class VerificationCodeView extends View {
                 // 干扰圆点的颜色
                 mInterferenceCirclesColor = array.getColor(attr, Color.BLACK);
 
-            } else if (attr == R.styleable.VerificationCodeView_interferenceCirclesRadius) {// 干扰圆点的半径
+            } else if (attr == R.styleable.VerificationCodeView_interferenceCirclesRadius) {
+                // 干扰圆点的半径
                 mInterferenceCirclesRadius = array.getFloat(attr, 5f);
 
-            } else if (attr == R.styleable.VerificationCodeView_interferenceCirclesCount) {// 干扰圆点的数量
+            } else if (attr == R.styleable.VerificationCodeView_interferenceCirclesCount) {
+                // 干扰圆点的数量
                 mInterferenceCirclesCount = array.getInt(attr, 100);
 
-            } else if (attr == R.styleable.VerificationCodeView_isShowInterferenceLines) {// 是否显示干扰线条
+            } else if (attr == R.styleable.VerificationCodeView_isShowInterferenceLines) {
+                // 是否显示干扰线条
                 isShowInterferenceLines = array.getBoolean(attr, true);
 
             } else if (attr == R.styleable.VerificationCodeView_interferenceLinesColor) {
@@ -510,13 +521,16 @@ public class VerificationCodeView extends View {
                 // 干扰线条的颜色
                 mInterferenceLinesColor = array.getColor(attr, Color.BLACK);
 
-            } else if (attr == R.styleable.VerificationCodeView_interferenceLinesCount) {// 干扰线条的数量
+            } else if (attr == R.styleable.VerificationCodeView_interferenceLinesCount) {
+                // 干扰线条的数量
                 mInterferenceLinesCount = array.getInt(attr, 10);
 
-            } else if (attr == R.styleable.VerificationCodeView_interferenceLinesWidth) {// 干扰线条的宽度
+            } else if (attr == R.styleable.VerificationCodeView_interferenceLinesWidth) {
+                // 干扰线条的宽度
                 mInterferenceLinesWidth = array.getFloat(attr, 3f);
 
-            } else if (attr == R.styleable.VerificationCodeView_verificationCodeBackground) {// 验证码背景色
+            } else if (attr == R.styleable.VerificationCodeView_verificationCodeBackground) {
+                // 验证码背景色
                 mVerificationCodeBackground = array.getColor(attr, Color.GRAY);
 
             }
