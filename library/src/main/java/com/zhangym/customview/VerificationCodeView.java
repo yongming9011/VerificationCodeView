@@ -588,7 +588,7 @@ public class VerificationCodeView extends View {
         /*
         绘制文本
          */
-        if (mVerificationText != null) {
+        if (mVerificationText != null && mVerificationText.length() > 0) {
             mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
             // 设置文本是否加粗
             if (isTextBold) {
