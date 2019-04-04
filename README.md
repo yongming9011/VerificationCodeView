@@ -1,4 +1,4 @@
-# VerificationCodeView
+# 兄弟们，两年前哥们都从Android脱坑了，入了后台的坑，该项目早已停止维护，各位慎重啊！
 
 # 一、添加依赖
 
