@@ -1,5 +1,7 @@
 # VerificationCodeView - Android 验证码控件
 
+> **⚠️ 近期所有提交均为AI开发及修改！**
+
 ## ⚠️ 更新说明
 
 本项目已全面适配最新 Android SDK 34 (Android 14)，并迁移到 AndroidX 支持库。
